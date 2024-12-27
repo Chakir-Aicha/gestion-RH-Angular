@@ -15,7 +15,6 @@ import { AuthGuard } from './auth.guard';
 const routes: Routes = [
   { path: 'profile/:id', component: LoginComponent },
   { path: '', component: LoginComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'rh', component: RhDashComponent },
   { path: 'employe', component: EmployeDashComponent },
 
