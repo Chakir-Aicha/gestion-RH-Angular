@@ -21,7 +21,7 @@ export class AuthGuard implements CanActivate {
       }
     }
     // Redirection en cas de rôle non autorisé
-    this.router.navigate(['/']);
+    this.router.navigate(['/login']);
     return false;
   }
 }
